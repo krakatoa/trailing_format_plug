@@ -22,8 +22,8 @@ defmodule TrailingFormatPlug.Mixfile do
 
   defp deps do
     [
-      {:cowboy, "~> 1.0.0"},
-      {:plug, "> 0.12.0"}
+      {:cowboy, "~> 1.0"},
+      {:plug, "~> 1.5"}
     ]
   end
 
